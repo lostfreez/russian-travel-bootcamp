@@ -2,3 +2,8 @@
     grid-area: places__link-conteiner;
     align-self: end;
 }
+@media (max-width: 320px) {
+    .places__link-conteiner {
+    margin: 0 16px 0;
+    }
+  }

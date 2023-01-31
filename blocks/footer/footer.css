@@ -3,3 +3,16 @@
     display: flex;
     justify-content: space-between;
 }
+@media (max-width: 768px) {
+    .footer{
+        padding: 88px 24px 24px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .footer {
+        flex-direction: column;
+       padding: 64px 16px 24px;
+    }
+  }
+  
