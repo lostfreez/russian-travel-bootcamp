@@ -4,4 +4,8 @@
   line-height: 22px;
   color: white;
   margin: 0;
+  transition: 0.3s;
+}
+.places__link:hover{
+  opacity: 0.8;
 }

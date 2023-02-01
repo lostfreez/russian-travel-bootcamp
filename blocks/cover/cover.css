@@ -9,6 +9,9 @@
   position: relative;
   z-index: 1;
 }
+.cover:hover .cover__background {
+  opacity: 0.3;
+}
 @media (max-width: 1024px) {
   .cover {
     width: 1024px;
@@ -29,3 +32,4 @@
     margin-top: 66px
   }
 }
+

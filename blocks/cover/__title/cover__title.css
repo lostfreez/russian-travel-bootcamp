@@ -5,6 +5,12 @@
   text-align: center;
   margin: 0;
   max-width: 560px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+.cover__title:hover{
+  opacity: 0.8;
 }
 
 @media (max-width: 320px) {
