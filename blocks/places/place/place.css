@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: minmax(100px,460px) minmax(100px,484px);
   grid-template-rows: repeat(2, min-content);
   grid-template-areas:
     "places__title places__link-conteiner"
@@ -14,19 +14,19 @@
 @media (max-width: 1024px) {
   .place {
     display: grid;
-    grid-template-columns: 440px 456px;
+    grid-template-columns: minmax(100px,440px) minmax(100px,456px);
     gap: 32px 48px;
   }
 }
 @media (max-width: 768px) {
   .place {
     display: grid;
-    grid-template-columns: 340px 352px;
+    grid-template-columns: minmax(100px,340px) minmax(100px,352px);
     gap: 28px 26px;
     margin-bottom: 73px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 465px) {
   .place {
     grid-template-columns: 320px;
     grid-template-areas:

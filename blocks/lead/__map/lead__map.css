@@ -1,22 +1,20 @@
-.lead__map{
-width: 984px;
-height: 615px;
+.lead__map {
+  max-width: 984px;
+  max-height: 615px;
+  width: 100%;
 }
 @media (max-width: 1024px) {
-    .lead__map{
-        width: 928px;
-        height: 580px;
-        }
+  .lead__map {
+    max-height: 580px;
+  }
 }
 @media (max-width: 768px) {
-    .lead__map{
-        width: 768px;
-        height: 480px;
-        }
+  .lead__map {
+    max-height: 480px;
+  }
 }
 @media (max-width: 320px) {
-    .lead__map {
-        width: 320px;
-        height: 200px;
-    }
+  .lead__map {
+    max-height: 200px;
   }
+}
