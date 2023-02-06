@@ -15,5 +15,4 @@
 - Использование CSS медиа-запросв (media queries) для управления значениями элементов 
 в зависимости от значений технических параметров устройств.
 
-#### Ссылка на проект: [Ссылка]:https://lostfreez.github.io/russian-travel-bootcamp/ "Проектная работа №3"
-
+#### Ссылка на проект: https://lostfreez.github.io/russian-travel-bootcamp/ 
