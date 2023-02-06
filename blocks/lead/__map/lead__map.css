@@ -6,6 +6,7 @@
 @media (max-width: 1024px) {
   .lead__map {
     max-height: 580px;
+    max-width: 928px;
   }
 }
 @media (max-width: 768px) {

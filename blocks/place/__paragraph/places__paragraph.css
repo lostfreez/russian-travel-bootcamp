@@ -1,20 +1,23 @@
-.places__paragraph {
+.place__paragraph {
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
   margin: 0;
 }
-.places__paragraph:nth-child(2) {
+.place__paragraph:nth-child(2) {
   margin-top: 26px;
+}
+.place__paragraph:last-child{
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
-  .places__paragraph {
+  .place__paragraph {
     font-size: 16px;
   }
 }
 @media (max-width: 320px) {
-  .places__paragraph {
+  .place__paragraph {
     margin: 0 16px 0;
   }
 }

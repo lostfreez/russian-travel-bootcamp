@@ -5,7 +5,7 @@
   grid-template-areas:
     "places__title places__link-conteiner"
     "places__image places__paragraph-conteiner";
-  gap: 40px 48px;
+  gap: 48px 40px;
   margin-bottom: 80px;
 }
 .place:last-child {
@@ -13,16 +13,14 @@
 }
 @media (max-width: 1024px) {
   .place {
-    display: grid;
-    grid-template-columns: minmax(100px,440px) minmax(100px,456px);
-    gap: 32px 48px;
+    grid-template-columns: minmax(140px,440px) minmax(100px,456px);
+    gap: 48px 32px;
   }
 }
 @media (max-width: 768px) {
   .place {
-    display: grid;
-    grid-template-columns: minmax(100px,340px) minmax(100px,352px);
-    gap: 28px 26px;
+    grid-template-columns: minmax(110px,340px) minmax(100px,352px);
+    gap: 48px 28px;
     margin-bottom: 73px;
   }
 }
@@ -35,5 +33,6 @@
       "places__image"
       "places__paragraph-conteiner";
     gap: 32px 0;
+    margin-bottom: 50px;
   }
 }

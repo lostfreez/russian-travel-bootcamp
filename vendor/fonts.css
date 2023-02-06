@@ -5,8 +5,14 @@
   font-weight: normal;
 }
 @font-face {
+  src: url(../vendor/Inter/Inter-Bold.woff2) format("woff2"),
+    url(../vendor/Inter/Inter-Bold.woff) format("woff");
+  font-family: "Inter";
+  font-weight: 700;
+}
+@font-face {
   src: url(../vendor/Inter/Inter-Black.woff2) format("woff2"),
     url(../vendor/Inter/Inter-Black.woff) format("woff");
   font-family: "Inter";
-  font-weight: bold;
+  font-weight: 900;
 }

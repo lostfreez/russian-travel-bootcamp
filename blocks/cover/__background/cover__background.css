@@ -1,7 +1,0 @@
-.cover__background {
-  position: absolute;
-  z-index: -1;
-  transition: 0.3s;
-  opacity: 0.8;
-  width: 100%;
-}
