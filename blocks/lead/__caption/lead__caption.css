@@ -5,7 +5,6 @@
   margin: 8px 0 0;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  width: 100%;
   max-width: 984px;
   width: calc(100vw - 48px);
 }
